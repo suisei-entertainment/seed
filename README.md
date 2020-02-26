@@ -108,6 +108,7 @@ environment variable.
     command: `virtualenv .env`
     + (OPTIONAL) Activate the virtual environment with the following command:
     `source /path/to/repository/.env/bin/activate`
+    + Navigate to the source directory of the SDE tool: `cd ./src/sde`
     + Execute the following command: `python -m suisei.sde --install`
 
 The setup utility will make sure all of the required dependencies are
