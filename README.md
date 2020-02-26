@@ -46,6 +46,7 @@ virtualenv. Only present when working in a virtual environment.
 absolutely know what you are doing.
 + **.sde**: Contains various files created by SDE while working on the platform. Only present if SDE has already been executed at least once.
 + **assets**: Contains all binary assets, typically images and other media.
++ **scripts**: Contains various utility scripts mainly utilized by CI.
 + **src**: Contains the source code of the platorm.
 
 Each subdirectory contains additional README.md files with a description of
