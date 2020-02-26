@@ -1,0 +1,25 @@
+[run]
+branch = True
+cover_pylib = False
+concurrency = thread
+omit =
+    ./test/*
+    */__init__.py
+    */site-packages/*
+    ./suisei/sde/*
+    ./.sde/*
+
+[paths]
+source =
+    ./src/utils/suisei/*
+
+[report]
+precision = 2
+skip_covered = False
+
+[html]
+directory = ./.sde/logs/test/coverage
+title = SEED Unit Test Coverage Report
+
+[xml]
+output = ./.sde/coverage.xml

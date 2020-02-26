@@ -1,0 +1,50 @@
+## ============================================================================
+##                   **** SEED Virtual Reality Platform ****
+##                Copyright (C) 2019-2020, Suisei Entertainment
+## ============================================================================
+##
+##  This program is free software: you can redistribute it and/or modify
+##  it under the terms of the GNU General Public License as published by
+##  the Free Software Foundation, either version 3 of the License, or
+##  (at your option) any later version.
+##
+##  This program is distributed in the hope that it will be useful,
+##  but WITHOUT ANY WARRANTY; without even the implied warranty of
+##  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+##  GNU General Public License for more details.
+##
+##  You should have received a copy of the GNU General Public License
+##  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##
+## ============================================================================
+
+language: python
+
+arch:
+  - amd64
+  - arm64
+
+python:
+  - 3.7
+  - 3.8
+
+env:
+  global:
+    SNYK_TOKEN=b64e0bfa-e5da-4bb1-9e09-7b50a4d810b4
+
+install:
+  - sudo chmod -R 777 ~/.cache
+  - pip install -r requirements.txt
+  - pip install -r requirements-dev.txt
+
+os: linux
+dist: bionic
+
+before_script:
+  - ./scripts/ci/before.sh
+
+script:
+  - ./scripts/ci/run_unit_test_with_coverage.sh
+
+after_success:
+  - ./scripts/ci/after_success.sh
