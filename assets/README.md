@@ -1,0 +1,1 @@
+Contains some common assets used by multiple components.
