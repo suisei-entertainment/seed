@@ -1,3 +1,6 @@
 [submodule "src/utils"]
 	path = src/utils
 	url = https://github.com/suisei-entertainment/seed.utils.git
+[submodule "src/sde"]
+	path = src/sde
+	url = https://github.com/suisei-entertainment/seed.sde.git
