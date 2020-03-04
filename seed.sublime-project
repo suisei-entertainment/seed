@@ -17,7 +17,8 @@
                 ".git",
                 "__pycache__",
                 ".scannerwork",
-                ".env"
+                ".env",
+                "*.egg-info"
             ]
         }
     ],
