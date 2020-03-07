@@ -4,3 +4,9 @@
 [submodule "src/sde"]
 	path = src/sde
 	url = https://github.com/suisei-entertainment/seed.sde.git
+[submodule "src/seed.components"]
+	path = src/seed.components
+	url = https://github.com/suisei-entertainment/seed.components.git
+[submodule "src/components"]
+	path = src/components
+	url = https://github.com/suisei-entertainment/seed.components.git
