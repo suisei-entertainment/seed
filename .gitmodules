@@ -13,3 +13,6 @@
 [submodule "src/core"]
 	path = src/core
 	url = https://github.com/suisei-entertainment/seed.core.git
+[submodule "doc"]
+	path = doc
+	url = https://github.com/suisei-entertainment/seed.documentation.git

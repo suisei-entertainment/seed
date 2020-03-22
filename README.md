@@ -44,7 +44,6 @@ This is the main repository of the SEED virtual reality platform.
 virtualenv. Only present when working in a virtual environment.
 + **.git**: The directory containing Git internals. Do not touch, unless you
 absolutely know what you are doing.
-+ **.sde**: Contains various files created by SDE while working on the platform. Only present if SDE has already been executed at least once.
 + **assets**: Contains all binary assets, typically images and other media.
 + **scripts**: Contains various utility scripts mainly utilized by CI.
 + **src**: Contains the source code of the platorm.
