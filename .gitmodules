@@ -16,3 +16,6 @@
 [submodule "doc"]
 	path = doc
 	url = https://github.com/suisei-entertainment/seed.documentation.git
+[submodule "src/node/supervisor"]
+	path = src/node/supervisor
+	url = https://github.com/suisei-entertainment/seed.supervisor.git
