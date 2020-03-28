@@ -3,23 +3,32 @@ branch = True
 cover_pylib = False
 concurrency = thread
 omit =
-    ./test/*
+    */test/*
+    */.sde/*
     */__init__.py
-    */site-packages/*
-    ./suisei/sde/*
-    ./.sde/*
+    */site-packages/pylint/*
+    */site-packages/tap/*
+    */site-packages/termcolor.py
+    */site-packages/wrapt/*
+    */site-packages/pkg_resources/*
+    */site-packages/humanfriendly/*
+    */site-packages/cryptography/*
+    */site-packages/lazy_object_proxy/*
+    */site-packages/six.py
+    */site-packages/astroid/*
+    */site-packages/suisei/sde/*
 
 [paths]
 source =
-    ./src/utils/suisei/*
+    */site-packages/suisei/*
 
 [report]
 precision = 2
 skip_covered = False
 
 [html]
-directory = ./.sde/logs/test/coverage
+directory = ~/.sde/logs/test/coverage
 title = SEED Unit Test Coverage Report
 
 [xml]
-output = ./.sde/coverage.xml
+output = ~/.sde/coverage.xml
