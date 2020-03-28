@@ -1,0 +1,91 @@
+SEED:
+
+  SEED Framework:
+
+    Utils:
+
+ ☐ Implement simple CLI parser base on argparse. @created(20-03-27 15:12) @started(20-03-27 15:12) @MUST
+ ☐ Add support for YAML files. @created(20-03-27 15:11) @COULD
+ ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST
+
+    Core:
+
+ ☐ Implement core application class. @created(20-03-27 15:37) @MUST
+ ☐ Implement core business logic functionality. @created(20-03-27 15:37) @MUST
+ ☐ Implement daemon application. @created(20-03-27 15:37) @MUST
+ ☐ Implement CLI application. @created(20-03-27 15:37) @MUST
+ ☐ Implement basic configuration service based on configuration files in a directory. @created(20-03-27 15:13) @MUST
+ ☐ Implement support for managed objects. @created(20-03-27 15:15) @MUST
+ ☐ Implement host detection service. @created(20-03-27 15:16) @MUST
+ ☐ Implement logging service. @created(20-03-27 15:16) @MUST
+ ☐ Implement networking service. @created(20-03-27 15:16) @MUST
+ ☐ Implement task processing support @created(20-03-27 15:17) @MUST
+
+    Protocol:
+
+ ☐ Implement basic message types for the protocol. @created(20-03-27 15:23) @ MUST
+ ☐ Implement protocol parts for the CLI tool. @created(20-03-27 15:23) @MUST
+ ☐ Implement protocol parts for the Web UI. @created(20-03-27 15:23) @MUST
+
+    Node:
+
+ ☐ Implement setup script to convert a basic Ubuntu 18.04 install to a SEED node. @created(20-03-27 15:19) @SHOULD
+
+      Supervisor:
+
+ ☐ Create docker container configuration for supervisor. @created(20-03-27 15:18) @MUST
+ ☐ Implement basic supervisor logic. @created(20-03-27 15:18) @MUST
+ ☐ Implement build script for the supervisor. @created(20-03-27 15:41) MUST
+
+      Updater:
+
+ ☐ Create docker container configuration for updater. @created(20-03-27 15:18) @MUST
+ ☐ Implement basic updater. @created(20-03-27 15:18) @MUST
+ ☐ Create simple update server. @created(20-03-27 15:18) @MUST
+ ☐ Implement build script for the updater. @created(20-03-27 15:41) @MUST
+
+      Proxy:
+
+ ☐ Create docker container configuration for the access proxy. @created(20-03-27 15:40) @MUST
+ ☐ Implement basic proxy functionality. @created(20-03-27 15:40) @MUST
+ ☐ Implement build script for the proxy. @created(20-03-27 15:41) @MUST
+
+      Components:
+
+  SDE:
+
+ ✔ Implement basic SDE application. @done (20-03-27 15:41) @MUST
+ ☐ Implement build executor. @created(20-03-27 15:43) @MUST
+ ☐ Implement coverage executor. @created(20-03-27 15:43) @MUST
+ ☐ Implement linter executor. @created(20-03-27 15:43) @MUST
+ ☐ Implement release executor. @created(20-03-27 15:43) @SHOULD
+ ☐ Implement unit test executor. @created(20-03-27 15:43) @MUST
+ ☐ Implement artifactory builder. @created(20-03-27 15:43) @MUST
+ ☐ Implement bash builder. @created(20-03-27 15:44) @MUST
+ ☐ Implement CMake builder. @created(20-03-27 15:44) @COULD
+ ☐ Implement content builder. @created(20-03-27 15:44) @MUST
+ ☐ Implement .deb builder. @created(20-03-27 15:45) @MUST
+ ☐ Implement Docker builder. @created(20-03-27 15:45) @MUST
+ ☐ Implement make builder. @created(20-03-27 15:51) @COULD
+ ☐ Implement multistage builder. @created(20-03-27 15:51) @MUST
+ ☐ Implement pip builder. @created(20-03-27 15:51) MUST
+ ☐ Implement Python builder based on pyinstaller. @created(20-03-27 15:51) @MUST
+ ☐ Implement Sphinx builder. @created(20-03-27 15:52) @MUST
+ ☐ Implement version bumper builder. @created(20-03-27 15:52) @MUST
+ ☐ Implement wheel builder. @created(20-03-27 15:52) @MUST
+
+  Documentation:
+
+ ☐ Create basic development guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic getting started guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic managed object guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic architecture guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic deployment guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic glossary. @created(20-03-27 15:25) @MUST
+ ☐ Create Python style guide. @created(20-03-27 15:25) @SHOULD
+ ☐ Create basic testing guide. @created(20-03-27 15:25) @MUST
+ ☐ Create basic troubleshooting guide. @created(20-03-27 15:25) @MUST
+ ☐ Create protocol specification. @created(20-03-27 15:28) @MUST
+ ☐ Create sequence diagrams for the protocol. @created(20-03-27 15:29) @MUST
+
+Frontier Colonies:
