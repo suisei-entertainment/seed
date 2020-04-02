@@ -4,9 +4,10 @@ SEED:
 
     Utils:
 
- ☐ Implement simple CLI parser base on argparse. @created(20-03-27 15:12) @started(20-03-27 15:12) @MUST
+ ✔ Implement simple CLI parser base on argparse. @created(20-03-27 15:12) @started(20-03-27 15:12) @MUST @done (20-03-28 12:47) @lasted(21:35)
  ☐ Add support for YAML files. @created(20-03-27 15:11) @COULD
- ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST
+ ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST @started(20-03-28 12:47)
+ ☐ Implement task processing support @created(20-03-27 15:17) @MUST
 
     Core:
 
@@ -19,7 +20,7 @@ SEED:
  ☐ Implement host detection service. @created(20-03-27 15:16) @MUST
  ☐ Implement logging service. @created(20-03-27 15:16) @MUST
  ☐ Implement networking service. @created(20-03-27 15:16) @MUST
- ☐ Implement task processing support @created(20-03-27 15:17) @MUST
+ ☐ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD
 
     Protocol:
 
