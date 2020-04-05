@@ -29,6 +29,7 @@ wget>=3.2
 
 # Cryptography
 cryptography>=2.4.2
+bcrypt>=3.1.7
 
 # Tools
 protobuf>=3.11.2
