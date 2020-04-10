@@ -8,6 +8,7 @@ SEED:
  ☐ Add support for YAML files. @created(20-03-27 15:11) @COULD
  ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST @started(20-03-28 12:47)
  ☐ Implement task processing support @created(20-03-27 15:17) @MUST
+ ☐ Implement host detection service. @created(20-03-27 15:16) @MUST @started(20-04-10 16:43)
 
     Core:
 
@@ -17,10 +18,9 @@ SEED:
  ☐ Implement CLI application. @created(20-03-27 15:37) @MUST
  ☐ Implement basic configuration service based on configuration files in a directory. @created(20-03-27 15:13) @MUST
  ☐ Implement support for managed objects. @created(20-03-27 15:15) @MUST
- ☐ Implement host detection service. @created(20-03-27 15:16) @MUST
  ☐ Implement logging service. @created(20-03-27 15:16) @MUST
  ☐ Implement networking service. @created(20-03-27 15:16) @MUST
- ☐ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD @started(20-04-10 15:25)
+ ✔ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD @started(20-04-10 15:25) @done (20-04-10 16:27) @lasted(1:02)
 
     Protocol:
 
