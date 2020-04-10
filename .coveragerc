@@ -16,6 +16,9 @@ omit =
     */site-packages/lazy_object_proxy/*
     */site-packages/six.py
     */site-packages/astroid/*
+    */site-packages/psutil/*
+    */site-packages/cpuinfo/*
+    */site-packages/distro.py
     */site-packages/suisei/sde/*
 
 [paths]
