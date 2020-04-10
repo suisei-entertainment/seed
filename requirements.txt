@@ -41,3 +41,6 @@ coloredlogs>=10.0
 # WebUI
 flask>=1.1.1
 Flask-Session>=0.3.1
+
+# Sentry.IO
+sentry-sdk
