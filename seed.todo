@@ -20,7 +20,7 @@ SEED:
  ☐ Implement host detection service. @created(20-03-27 15:16) @MUST
  ☐ Implement logging service. @created(20-03-27 15:16) @MUST
  ☐ Implement networking service. @created(20-03-27 15:16) @MUST
- ☐ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD
+ ☐ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD @started(20-04-10 15:25)
 
     Protocol:
 
