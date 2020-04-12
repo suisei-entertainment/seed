@@ -8,9 +8,10 @@ SEED:
  ☐ Add support for YAML files. @created(20-03-27 15:11) @COULD
  ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST @started(20-03-28 12:47)
  ☐ Refactor existing code to use the new logger. @created(20-04-10 16:44)
- ☐ Implement task processing support @created(20-03-27 15:17) @MUST
  ✔ Implement host detection service. @created(20-03-27 15:16) @MUST @started(20-04-10 16:43) @done (20-04-10 17:06) @lasted(0:23)
  ✔ Add option to retrieve the public IP of the host machine. @created(20-04-11 14:58) @started(20-04-11 14:58) @done (20-04-11 15:18) @lasted(0:20)
+ ☐ Add basic GeoIP support. @created(20-04-11 17:40) @started(20-04-11 17:40)
+ ☐ Add support for automatic GeoIP database updates. @created(20-04-11 18:50)
 
     Core:
 
@@ -22,6 +23,7 @@ SEED:
  ☐ Implement support for managed objects. @created(20-03-27 15:15) @MUST
  ☐ Implement logging service. @created(20-03-27 15:16) @MUST
  ☐ Implement networking service. @created(20-03-27 15:16) @MUST
+ ☐ Implement task processing support @created(20-03-27 15:17) @MUST
  ✔ Add support for sentry.io. @created(20-03-30 16:06) @SHOULD @started(20-04-10 15:25) @done (20-04-10 16:27) @lasted(1:02)
 
     Protocol:

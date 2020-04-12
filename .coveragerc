@@ -18,6 +18,13 @@ omit =
     */site-packages/astroid/*
     */site-packages/psutil/*
     */site-packages/cpuinfo/*
+    */site-packages/urllib3/*
+    */site-packages/geoip2/*
+    */site-packages/idna/*
+    */site-packages/chardet/*
+    */site-packages/maxminddb/*
+    */site-packages/requests/*
+    */site-packages/certifi/*
     */site-packages/distro.py
     */site-packages/suisei/sde/*
 
