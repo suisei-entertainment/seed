@@ -26,6 +26,7 @@ omit =
     */site-packages/requests/*
     */site-packages/certifi/*
     */site-packages/distro.py
+    */site-packages/wget.py
     */site-packages/suisei/sde/*
 
 [paths]
