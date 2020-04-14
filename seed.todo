@@ -11,7 +11,7 @@ SEED:
  ✔ Implement host detection service. @created(20-03-27 15:16) @MUST @started(20-04-10 16:43) @done (20-04-10 17:06) @lasted(0:23)
  ✔ Add option to retrieve the public IP of the host machine. @created(20-04-11 14:58) @started(20-04-11 14:58) @done (20-04-11 15:18) @lasted(0:20)
  ✔ Add basic GeoIP support. @created(20-04-11 17:40) @started(20-04-11 17:40) @done (20-04-12 17:38) @lasted(23:58)
- ☐ Add support for automatic GeoIP database updates. @created(20-04-11 18:50)
+ ✔ Add support for automatic GeoIP database updates. @created(20-04-11 18:50) @done (20-04-13 17:15)
 
     Core:
 
