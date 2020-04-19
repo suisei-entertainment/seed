@@ -7,17 +7,18 @@ SEED:
  ✔ Implement simple CLI parser base on argparse. @created(20-03-27 15:12) @started(20-03-27 15:12) @MUST @done (20-03-28 12:47) @lasted(21:35)
  ☐ Add support for YAML files. @created(20-03-27 15:11) @COULD
  ☐ Implement basic multitarget logger with syslog support. @created(20-03-27 15:15) @MUST @started(20-03-28 12:47)
- ☐ Refactor existing code to use the new logger. @created(20-04-10 16:44)
+ ☐ Refactor existing code to use the new logger. @created(20-04-10 16:44) @started(20-04-19 15:23)
  ✔ Implement host detection service. @created(20-03-27 15:16) @MUST @started(20-04-10 16:43) @done (20-04-10 17:06) @lasted(0:23)
  ✔ Add option to retrieve the public IP of the host machine. @created(20-04-11 14:58) @started(20-04-11 14:58) @done (20-04-11 15:18) @lasted(0:20)
  ✔ Add basic GeoIP support. @created(20-04-11 17:40) @started(20-04-11 17:40) @done (20-04-12 17:38) @lasted(23:58)
  ✔ Add support for automatic GeoIP database updates. @created(20-04-11 18:50) @done (20-04-13 17:15)
+ ✔ Implement storage service for secrets. @created(20-04-18 15:04) @MUST @done (20-04-19 13:19)
 
     Core:
 
- ☐ Implement core application class. @created(20-03-27 15:37) @MUST
- ☐ Implement core business logic functionality. @created(20-03-27 15:37) @MUST
- ☐ Implement daemon application. @created(20-03-27 15:37) @MUST
+ ✔ Implement core application class. @created(20-03-27 15:37) @MUST @done (20-04-19 15:09)
+ ✔ Implement core business logic functionality. @created(20-03-27 15:37) @MUST @done (20-04-19 15:09)
+ ✔ Implement daemon application. @created(20-03-27 15:37) @MUST @done (20-04-19 15:10)
  ☐ Implement CLI application. @created(20-03-27 15:37) @MUST
  ☐ Implement basic configuration service based on configuration files in a directory. @created(20-03-27 15:13) @MUST
  ☐ Implement support for managed objects. @created(20-03-27 15:15) @MUST
@@ -78,6 +79,7 @@ SEED:
  ☐ Implement Sphinx builder. @created(20-03-27 15:52) @MUST
  ☐ Implement version bumper builder. @created(20-03-27 15:52) @MUST
  ☐ Implement wheel builder. @created(20-03-27 15:52) @MUST
+ ☐ Implement secrets builder. @created(20-04-19 12:52) @MUST
 
   Documentation:
 
