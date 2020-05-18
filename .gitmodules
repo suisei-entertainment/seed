@@ -1,6 +1,3 @@
-[submodule "src/sde"]
-	path = src/sde
-	url = https://github.com/suisei-entertainment/seed.sde.git
 [submodule "src/seed.components"]
 	path = src/seed.components
 	url = https://github.com/suisei-entertainment/seed.components.git
@@ -20,7 +17,11 @@
 	path = src/murasame
 	url = git@github.com:suisei-entertainment/murasame.git
 	branch = development
-[submodule "src/mdt"]
-	path = src/mdt
-	url = git@github.com:suisei-entertainment/mdt.git
+[submodule "src/installer"]
+	path = src/installer
+	url = git@github.com:suisei-entertainment/seed.installer.git
+	branch = development
+[submodule "src/protocol"]
+	path = src/protocol
+	url = git@github.com:suisei-entertainment/seed.protocol.git
 	branch = development

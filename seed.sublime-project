@@ -18,7 +18,8 @@
                 "__pycache__",
                 ".scannerwork",
                 ".env",
-                "*.egg-info"
+                "*.egg-info",
+                ".pytest_cache"
             ]
         }
     ],
