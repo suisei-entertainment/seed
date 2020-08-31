@@ -25,3 +25,7 @@
 	path = src/protocol
 	url = git@github.com:suisei-entertainment/seed.protocol.git
 	branch = development
+[submodule "certificates"]
+	path = certificates
+	url = git@github.com:suisei-entertainment/seed.certificates.git
+	branch = development
